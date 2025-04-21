@@ -9,7 +9,7 @@ the local Universe"\
 Astronomy & Astrophysics\
 ArXiv: TBD \
 ADS: TBD \
-Publisher (A&A): TBD \
+Publisher (A&A): TBD 
 
 **Authors:**\
 C. Daoutis, A. Zezas, and M. L. N. Ashby
@@ -54,8 +54,8 @@ Given the significant dependency on specific versions of Python packages, we rec
 Run the *environment.yml* file:
 ```
 cd <your-install-dir>
-git clone https://github.com/BabisDaoutis/DONHaClassifier.git
-cd DONHaClassifier
+git clone https://github.com/BabisDaoutis/MSMIRdiagnostic.git
+cd MSMIRdiagnostic
 conda env create -f environment.yml
 ```
 This will create a new conda environment with all the needed python packages.
@@ -64,12 +64,12 @@ This will create a new conda environment with all the needed python packages.
 In case there are issues running the *environment.yml*, you can run the following commands in a terminal one by one:
 
 ```
-conda create --name DONHaclassifier python==3.12.4
-conda activate DONHaclassifier
-conda install scikit-learn==1.5.1
-conda install numpy==1.26.4
-conda install astropy==6.1.0
-conda install matplotlib==3.8.4
-conda install pandas==2.2.2
+conda create --name MSMIRdiagnostic python==
+conda activate MSMIRdiagnostic
+conda install scikit-learn==
+conda install numpy==
+conda install astropy==
+conda install matplotlib==
+conda install pandas==
 conda install jupyter notebook
 ```
