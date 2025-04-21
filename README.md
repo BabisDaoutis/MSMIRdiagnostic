@@ -1,8 +1,8 @@
 # MSMIRdiagnostic
 
-This is a mid-infrared dianostic for indetifying main sequance star-forming galaxies.
+This is a mid-infrared dianostic for indetifying main sequance (MS) star-forming galaxies.
 
-An SVM-based,3-dimensional using custom-defined bands in the 5.9-22 um for mid-IR spectra for all observstories.
+An SVM-based,3-dimensional using custom-defined bands in the 5.9-22 μm for mid-IR spectra for all observstories.
 
 Repository for galaxy activity classifier from the paper "Mid-Infrared diagnostics for identifying main sequence galaxies in
 the local Universe"\
@@ -12,7 +12,7 @@ ADS: TBD \
 Publisher (A&A): TBD \
 
 **Authors:**\
-C. Daoutis, A. Zezas and M. L. N. Ashby
+C. Daoutis, A. Zezas, and M. L. N. Ashby
 
 ### Abstract 
 **Context.** A galaxy’s mid-infrared spectrum captures a significant amount of information about its internal conditions such as the
@@ -40,23 +40,13 @@ from ultraviolet to far-infrared wavelengths.
 
 ### Application of the model
 
-This repository includes all the necessary files and a Jupyter notebook as an example of application. The weights of the pre-trained algorithm for implementing the algorithm described in the referenced paper is the 'DONHa_classifier.sav'. We have provided a test file named 'test_sample_galaxies.csv' to verify that your code is functioning correctly. To classify the activity of galaxies in your own catalog, simply replace this test file with your catalog. Supported formats for your catalog are 'fits' or 'csv'.
+This repository contains all the required files and a Jupyter notebook as an example of an application. The weights of the pre-trained algorithm for implementing the algorithm described in the referenced paper is the '**TBD.sav**'. We have provided an example spactrum 'TBD.csv' to verify that your code is functioning correctly.
 
-- **Output of classifier**\
-Once the model has been applied to your galaxy catalog, a new column labeled 'classification' will show each galaxy's activity class. The classification labels are encoded numerically, with each number representing a distinct activity class. Below is a legend explaining the meaning of these numerical codes. \
+- **Output of diagnostic**\
+After applying the model to a galaxy's spectrum, the diagnostic provides the classification result, indicating whether the galaxy is a main sequence star-forming galaxy or not. \
 **Classification legend** \
-0 - Pure star forming \
-1 - Pure AGN \
-2 - Pure passive \
-3 - Starburst-AGN \
-4 - AGN-starburst \
-5 - Starburst-passive \
-6 - Passive-starburst \
-7 - Passive-AGN \
-8 - AGN-passive \
--1 - Inconclusive (no result) 
-  
-For more detailes about the definition of each activity class see Table 3 of the paper. 
+0 - MS star-forming galaxy \
+1 - NON-MS star-forming galaxy \
 
 Given the significant dependency on specific versions of Python packages, we recommend that users create a conda environment where all required packages are installed according to the versions with which this code has been successfully tested. Detailed instructions for creating the appropriate conda environment are provided below:
 
