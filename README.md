@@ -64,12 +64,12 @@ This will create a new conda environment with all the needed python packages.
 In case there are issues running the *environment.yml*, you can run the following commands in a terminal one by one:
 
 ```
-conda create --name MSMIRdiagnostic python==
+conda create --name MSMIRdiagnostic python==3.13.0
 conda activate MSMIRdiagnostic
-conda install scikit-learn==
-conda install numpy==
-conda install astropy==
-conda install matplotlib==
-conda install pandas==
+conda install scikit-learn==1.5.2
+conda install numpy==2.2.2
+conda install astropy==7.0.1
+conda install matplotlib==3.9.2
+conda install pandas==2.2.3
 conda install jupyter notebook
 ```
