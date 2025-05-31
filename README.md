@@ -45,8 +45,8 @@ This repository contains all the required files and a Jupyter notebook as an exa
 - **Output of diagnostic**\
 After applying the model to a galaxy's spectrum, the diagnostic provides the classification result, indicating whether the galaxy is a main sequence star-forming galaxy or not. \
 **Classification legend** \
-0 - MS star-forming galaxy \
-1 - NON-MS star-forming galaxy \
+ - MS star-forming galaxy \
+ - NON-MS star-forming galaxy \
 
 Given the significant dependency on specific versions of Python packages, we recommend that users create a conda environment where all required packages are installed according to the versions with which this code has been successfully tested. Detailed instructions for creating the appropriate conda environment are provided below:
 
