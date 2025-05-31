@@ -1,0 +1,12 @@
+name: MSMIRdiagnostic
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13.0
+  - scikit-learn=1.5.2
+  - numpy=2.2.2
+  - astropy=7.0.1
+  - matplotlib=3.9.2
+  - pandas=2.2.3
+  - notebook  # Jupyter Notebook
