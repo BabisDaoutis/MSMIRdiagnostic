@@ -40,7 +40,7 @@ from ultraviolet to far-infrared wavelengths.
 
 ### Application of the model
 
-This repository contains all the required files and a Jupyter notebook as an example of an application. The weights of the pre-trained algorithm for implementing the algorithm described in the referenced paper is the '**TBD.sav**'. We have provided an example spactrum 'TBD.csv' to verify that your code is functioning correctly.
+This repository contains all the required files and a Jupyter notebook as an example of an application. The weights of the pre-trained algorithm for implementing the algorithm described in the referenced paper is the '**MSMIRdiagnostic_model.joblib**' and '**MSMIRdiagnostic_model_JWST.joblib**' for the diangotic using custom bands for IRS spectra and the one using JWST photmetry respectivelly. We have provided an example spactrum 'S5_15_3_lores.tbl' to verify that your code is functioning correctly.
 
 **Output of diagnostic**\
 After applying the model to a galaxy's spectrum, the diagnostic provides the classification result, indicating whether the galaxy is a main sequence star-forming galaxy or not. \
