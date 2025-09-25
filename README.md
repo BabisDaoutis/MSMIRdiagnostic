@@ -7,7 +7,7 @@ An SVM-based,3-dimensional using custom-defined bands in the 5.9-22 μm for mid-
 Repository for galaxy activity classifier from the paper "Mid-Infrared diagnostics for identifying main sequence galaxies in
 the local Universe"\
 Astronomy & Astrophysics\
-ArXiv: TBD \
+ArXiv: https://arxiv.org/abs/2509.16964 \
 ADS: TBD \
 Publisher (A&A): TBD 
 
