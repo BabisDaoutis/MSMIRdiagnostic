@@ -9,7 +9,7 @@ the local Universe"\
 Astronomy & Astrophysics\
 ArXiv: https://arxiv.org/abs/2509.16964 \
 ADS: https://ui.adsabs.harvard.edu/abs/2025A%26A...703A..94D/abstract \
-Publisher (A&A): https://www.aanda.org/articles/aa/full_html/2025/01/aa51323-24/aa51323-24.html \
+Publisher (A&A): https://www.aanda.org/articles/aa/full_html/2025/11/aa54857-25/aa54857-25.html \
 **Authors:**\
 C. Daoutis, A. Zezas, and M. L. N. Ashby
 
