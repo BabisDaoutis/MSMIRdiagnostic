@@ -8,9 +8,8 @@ Repository for galaxy activity classifier from the paper "Mid-Infrared diagnosti
 the local Universe"\
 Astronomy & Astrophysics\
 ArXiv: https://arxiv.org/abs/2509.16964 \
-ADS: TBD \
-Publisher (A&A): TBD 
-
+ADS: https://ui.adsabs.harvard.edu/abs/2025A%26A...703A..94D/abstract \
+Publisher (A&A): https://www.aanda.org/articles/aa/full_html/2025/01/aa51323-24/aa51323-24.html 
 **Authors:**\
 C. Daoutis, A. Zezas, and M. L. N. Ashby
 
